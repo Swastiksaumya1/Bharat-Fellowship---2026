@@ -99,16 +99,28 @@ Complete guide to all documentation files in this project.
 - Testing strategy
 - Future roadmap
 
+### 10. [SECURITY.md](SECURITY.md) 🔒
+**Security guidelines and best practices.**
+- Security fixes applied
+- Environment variables security
+- API key management
+- MongoDB security
+- CORS configuration
+- Rate limiting
+- Input validation
+- Incident response procedures
+- Deployment security checklist
+
 ## 🧪 Testing & Scripts
 
-### 10. [test-api.sh](test-api.sh) 🐧
+### 11. [test-api.sh](test-api.sh) 🐧
 **API test script for Linux/Mac.**
 - Tests all endpoints
 - Validates responses
 - Color-coded output
 - Usage: `./test-api.sh [API_URL]`
 
-### 11. [test-api.bat](test-api.bat) 🪟
+### 12. [test-api.bat](test-api.bat) 🪟
 **API test script for Windows.**
 - Tests all endpoints
 - Simple output
@@ -116,7 +128,7 @@ Complete guide to all documentation files in this project.
 
 ## ⚙️ Configuration Files
 
-### 12. [docker-compose.yml](docker-compose.yml) 🐳
+### 13. [docker-compose.yml](docker-compose.yml) 🐳
 **Multi-container orchestration.**
 - Defines 3 services: mongo, server, client
 - Port mappings
@@ -124,14 +136,14 @@ Complete guide to all documentation files in this project.
 - Environment variables
 - Dependencies
 
-### 13. [.env.example](.env.example) 🔑
+### 14. [.env.example](.env.example) 🔑
 **Environment variables template.**
 - MongoDB connection string
 - data.gov.in API credentials
 - Server configuration
 - Copy to `.env` and fill in values
 
-### 14. [.gitignore](.gitignore) 🚫
+### 15. [.gitignore](.gitignore) 🚫
 **Git ignore rules.**
 - Excludes .env (secrets)
 - Excludes node_modules
@@ -188,8 +200,9 @@ server/
 | STRUCTURE.md            | ~11 KB | Project structure                |
 | PROJECT_SUMMARY.md      | ~9 KB  | Project overview                 |
 | QUICK_START.md          | ~2 KB  | Quick start guide                |
+| SECURITY.md             | ~6 KB  | Security guidelines              |
 
-**Total Documentation**: ~80 KB of comprehensive guides!
+**Total Documentation**: ~86 KB of comprehensive guides!
 
 ### Reading Time Estimates
 | Document                | Time    | When to Read                     |
@@ -203,6 +216,7 @@ server/
 | API_DOCUMENTATION.md    | 15 min  | Optional - for API integration   |
 | STRUCTURE.md            | 10 min  | Optional - for code navigation   |
 | PROJECT_SUMMARY.md      | 10 min  | Optional - for overview          |
+| SECURITY.md             | 10 min  | Important - for security         |
 
 ## 🎓 Learning Path
 
