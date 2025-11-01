@@ -202,7 +202,7 @@ For production deployment, update:
 
 ```env
 NODE_ENV=production
-MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/mgnrega
+MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>
 VITE_API_URL=https://your-backend-url.com
 ```
 

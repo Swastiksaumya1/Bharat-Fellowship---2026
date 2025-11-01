@@ -103,7 +103,7 @@ curl "http://localhost:5000/api/performance?state=Uttar%20Pradesh&district=Varan
 1. **Create MongoDB Atlas Database** (if not using local)
    - Go to https://www.mongodb.com/cloud/atlas/register
    - Create free cluster
-   - Get connection string (looks like: `mongodb+srv://user:pass@cluster.mongodb.net/mgnrega`)
+   - Get connection string (format: `mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>`)
 
 2. **Deploy to Render**
    - Go to https://render.com
@@ -118,9 +118,9 @@ curl "http://localhost:5000/api/performance?state=Uttar%20Pradesh&district=Varan
      - **Start Command**: `npm start`
    - Add Environment Variables:
      ```
-     MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/mgnrega
-     DATA_GOV_API_KEY=your_api_key
-     DATA_GOV_RESOURCE_ID=your_resource_id
+     MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>
+     DATA_GOV_API_KEY=your_api_key_here
+     DATA_GOV_RESOURCE_ID=your_resource_id_here
      NODE_ENV=production
      PORT=5000
      ```
