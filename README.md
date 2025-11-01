@@ -281,7 +281,7 @@ MIT License - feel free to use this project for learning and development.
 
 **Swastik Saumya**
 - Built for: Bharat Fellowship 2026
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@SWASTIK SAUMYA](https://github.com/Swastiksaumya1)
 
 ## 🙏 Acknowledgments
 
@@ -291,4 +291,4 @@ MIT License - feel free to use this project for learning and development.
 
 ---
 
-**Note**: This is a demonstration project. For production use, implement proper error handling, rate limiting, authentication, and comply with data.gov.in terms of service.
+**Note**: This is a demonstration project. For production use, implement proper error handling, rate limiting, and authentication, and comply with data.gov.in terms of service.
